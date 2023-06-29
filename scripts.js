@@ -24,8 +24,37 @@ function openCard(cardPosition){
 			infoTitle.innerHTML = 'Entrenamiento Constante';
 			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
 			break;
+		case 'left-2':
+			infoTitle.innerHTML = 'Planes de Entrenamiento';
+			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			break;
+		case 'left-3':
+			infoTitle.innerHTML = 'Aprende de los Mejores';
+			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			break;
+		case 'left-4':
+			infoTitle.innerHTML = 'Clases Magistrales';
+			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			break;
+		case 'right-1':
+			infoTitle.innerHTML = 'Practicar lo aprendido';
+			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			break;
+		case 'right-2':
+			infoTitle.innerHTML = 'Torneos Quincenales';
+			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			break;
+		case 'right-3':
+			infoTitle.innerHTML = 'Roce Internacional';
+			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			break;
+		case 'right-4':
+			infoTitle.innerHTML = 'Simultáneas Quincenales';
+			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			break;
 		default:
-			// statements_def
+			infoTitle.innerHTML = 'Sin título';
+			infoDescription.innerHTML = 'Sin descripción';
 			break;
 	}
 
