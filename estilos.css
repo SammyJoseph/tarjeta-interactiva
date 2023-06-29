@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Marcellus&display=swap');
+
+.ds_bg-dark{
+	background-color: #19191A;
+}
+
+.ds_dark{
+	color: #19191A;
+}
+
+.ds_golden{
+	color: #CEA82A;
+}
+
+.ds_golden-stroke{
+	stroke: #CEA82A;
+}
+
+.border-ds-dark{
+	border-color: #19191A;
+}
+
+.font-cormorant{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.font-marcellus{
+	font-family: 'Marcellus', serif;
+}
