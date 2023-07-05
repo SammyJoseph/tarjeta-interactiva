@@ -79,3 +79,35 @@ function closeCard(){
 		infoScreen.classList.add('hidden');
 	}, 500);
 }
+
+/* Hover en tarjetas */
+let card1 = document.querySelector('#card-1');
+let card2 = document.querySelector('#card-2');
+let scard1 = document.querySelector('#scard-1');
+let scard2 = document.querySelector('#scard-2');
+let scard1_svg = document.querySelector('#scard-1 svg');
+let scard2_svg = document.querySelector('#scard-2 svg');
+let cl1 = document.querySelector('#cl-1');
+let cl2 = document.querySelector('#cl-2');
+
+card1.onmouseover = function(e) {
+	cl1.classList.add('ds_bg-golden');
+	scard1.classList.add('ds_golden');
+	scard1.classList.add('border-ds-golden');
+	scard1_svg.classList.add('ds_golden');
+}
+card1.onmouseout = function(e){
+	cl1.classList.remove('ds_bg-golden');
+	scard1.classList.remove('ds_golden');
+	scard1.classList.remove('border-ds-golden');
+	scard1_svg.classList.remove('ds_golden');
+}
+
+card2.onmouseover = function(e) {
+	cl2.classList.add('ds_bg-golden');
+	scard2.classList.add('ds_golden');
+}
+card2.onmouseout = function(e){
+	cl2.classList.remove('ds_bg-golden');
+	scard2.classList.remove('ds_golden');
+}

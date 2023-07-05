@@ -4,6 +4,10 @@
 	background-color: #19191A;
 }
 
+.ds_bg-golden{
+	background-color: #CEA82A;
+}
+
 .ds_dark{
 	color: #19191A;
 }
@@ -18,6 +22,10 @@
 
 .border-ds-dark{
 	border-color: #19191A;
+}
+
+.border-ds-golden{
+	border-color: #CEA82A;
 }
 
 .font-cormorant{
