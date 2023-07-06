@@ -83,12 +83,23 @@ function closeCard(){
 /* Hover en tarjetas */
 let card1 = document.querySelector('#card-1');
 let card2 = document.querySelector('#card-2');
+let card3 = document.querySelector('#card-3');
+let card4 = document.querySelector('#card-4');
+
 let scard1 = document.querySelector('#scard-1');
 let scard2 = document.querySelector('#scard-2');
+let scard3 = document.querySelector('#scard-3');
+let scard4 = document.querySelector('#scard-4');
+
 let scard1_svg = document.querySelector('#scard-1 svg');
 let scard2_svg = document.querySelector('#scard-2 svg');
+let scard3_svg = document.querySelector('#scard-3 svg');
+let scard4_svg = document.querySelector('#scard-4 svg');
+
 let cl1 = document.querySelector('#cl-1');
 let cl2 = document.querySelector('#cl-2');
+let cl3 = document.querySelector('#cl-3');
+let cl4 = document.querySelector('#cl-4');
 
 card1.onmouseover = function(e) {
 	cl1.classList.add('ds_bg-golden');
@@ -106,8 +117,38 @@ card1.onmouseout = function(e){
 card2.onmouseover = function(e) {
 	cl2.classList.add('ds_bg-golden');
 	scard2.classList.add('ds_golden');
+	scard2.classList.add('border-ds-golden');
+	scard2_svg.classList.add('ds_golden');
 }
 card2.onmouseout = function(e){
 	cl2.classList.remove('ds_bg-golden');
 	scard2.classList.remove('ds_golden');
+	scard2.classList.remove('border-ds-golden');
+	scard2_svg.classList.remove('ds_golden');
+}
+
+card3.onmouseover = function(e) {
+	cl3.classList.add('ds_bg-golden');
+	scard3.classList.add('ds_golden');
+	scard3.classList.add('border-ds-golden');
+	scard3_svg.classList.add('ds_golden-stroke');
+}
+card3.onmouseout = function(e){
+	cl3.classList.remove('ds_bg-golden');
+	scard3.classList.remove('ds_golden');
+	scard3.classList.remove('border-ds-golden');
+	scard3_svg.classList.remove('ds_golden-stroke');
+}
+
+card4.onmouseover = function(e) {
+	cl4.classList.add('ds_bg-golden');
+	scard4.classList.add('ds_golden');
+	scard4.classList.add('border-ds-golden');
+	scard4_svg.classList.add('ds_golden-stroke');
+}
+card4.onmouseout = function(e){
+	cl4.classList.remove('ds_bg-golden');
+	scard4.classList.remove('ds_golden');
+	scard4.classList.remove('border-ds-golden');
+	scard4_svg.classList.remove('ds_golden-stroke');
 }
