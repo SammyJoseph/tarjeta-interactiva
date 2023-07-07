@@ -41,11 +41,11 @@ function openCard(cardPosition){
 			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
 			break;
 		case 'right-2':
-			infoTitle.innerHTML = 'Torneos Quincenales';
+			infoTitle.innerHTML = 'Roce Internacional';
 			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
 			break;
 		case 'right-3':
-			infoTitle.innerHTML = 'Roce Internacional';
+			infoTitle.innerHTML = 'Torneos Quincenales';
 			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
 			break;
 		case 'right-4':
