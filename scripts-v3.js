@@ -22,35 +22,19 @@ function openCard(cardPosition){
 	switch (cardPosition) {
 		case 'left-1':
 			infoTitle.innerHTML = 'Entrenamiento Constante';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			infoDescription.innerHTML = 'En la escuela hay actualmente 6 planes de entrenamiento divididos en varios niveles. Estos planes de entrenamiento están muy bien detallados para resolver problemas diarios de distintos temas por el periodo del plan de entrenamiento.';
 			break;
 		case 'left-2':
-			infoTitle.innerHTML = 'Planes de Entrenamiento';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
-			break;
-		case 'left-3':
 			infoTitle.innerHTML = 'Aprende de los Mejores';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
-			break;
-		case 'left-4':
-			infoTitle.innerHTML = 'Clases Magistrales';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			infoDescription.innerHTML = 'Las clases grupales de la escuela son preparadas a detalles por cada entrenador, y cada uno de ellos es especialista en su tema a enseñar.';
 			break;
 		case 'right-1':
 			infoTitle.innerHTML = 'Practicar lo aprendido';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			infoDescription.innerHTML = 'En la escuela se realizan torneos cada dos semanas con el objetivo de practicar lo aprendido, varios de estos torneos son temáticos de la apertura que se haya enseñado en la escuela.';
 			break;
 		case 'right-2':
 			infoTitle.innerHTML = 'Roce Internacional';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
-			break;
-		case 'right-3':
-			infoTitle.innerHTML = 'Torneos Quincenales';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
-			break;
-		case 'right-4':
-			infoTitle.innerHTML = 'Simultáneas Quincenales';
-			infoDescription.innerHTML = 'lorem ipsum DESCRIPTION';
+			infoDescription.innerHTML = 'En la escuela se realizan simultáneas contra los maestros cada dos semanas. Esto es importante para medirse contra jugadores fuertes y aprender de ellos.';
 			break;
 		default:
 			infoTitle.innerHTML = 'Sin título';
